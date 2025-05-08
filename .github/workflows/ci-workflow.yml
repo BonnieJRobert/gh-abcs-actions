@@ -2,10 +2,11 @@ name: 07-1. CI Workflow
 
 # Trigger CI for every PR event, when PR has target branch = main
 on:
-  pull_request:
-    branches: [main]
-#  push:
-#  #  branches: [main]
+  #push:
+  #  branches: [main]
+  #pull_request:
+  #  branches: [main]
+  workflow_dispatch: 
 
 jobs:
   # The first job lints the code base
