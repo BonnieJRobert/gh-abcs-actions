@@ -46,7 +46,7 @@ jobs:
         uses: ./.github/actions/hello-world-docker
 
       - name: meow
-        uses: ./.github/actions/cat-facts
+        uses: ./.github/actions/joke-action
         id: cat
 
       - name: create-issue
