@@ -15,12 +15,14 @@ name: 04-2. Lint Code Base
 # Start the job on all push #
 #############################
 on:
+  workflow_dispatch:
  # push:
  #   branches-ignore: [main]
  #   # Remove the line above to run when pushing to main
  # pull_request:
  #   branches: [main]
-  workflow_call:
+  #workflow_call:
+
 
 ###############
 # Set the Job #
