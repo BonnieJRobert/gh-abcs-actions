@@ -1,8 +1,8 @@
 name: 04-1. Call Reusable Workflow Templates
 
 on:
-  push:
-     branches: [main]
+  #push:
+  #   branches: [main]
   workflow_dispatch:    
 
 jobs:
